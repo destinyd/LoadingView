@@ -12,8 +12,7 @@ import com.mindpin.android.loadingview.LoadingView;
 import com.mindpin.android.loadingview.samples.BuildConfig;
 import com.mindpin.android.loadingview.samples.R;
 
-public class MainActivity extends Activity
-{
+public class MainActivity extends Activity {
     private LinearLayout mLoadingLayout;
 
     @Override
@@ -24,11 +23,11 @@ public class MainActivity extends Activity
     }
 
     // 数据加载完毕后运行该方法
-    public void loading_done(){
-        LinearLayout main_info = (LinearLayout)findViewById(R.id.main_info_view);
+    public void loading_done() {
+        LinearLayout main_info = (LinearLayout) findViewById(R.id.main_info_view);
         main_info.setVisibility(View.VISIBLE);
 
-        LoadingView lv = (LoadingView)findViewById(R.id.loading_view);
+        LoadingView lv = (LoadingView) findViewById(R.id.loading_view);
         lv.hide();
     }
 

@@ -15,16 +15,16 @@ public class LoadingView extends LinearLayout {
 
     public LoadingView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        LayoutInflater.from(context).inflate(R.layout.loadingview, this,  true);
+        LayoutInflater.from(context).inflate(R.layout.loadingview, this, true);
     }
 
     // 显示 LoadingView
-    public void show(){
+    public void show() {
         setVisibility(VISIBLE);
-    };
+    }
 
     // 隐藏 LoadingView
-    public void hide(){
+    public void hide() {
         setVisibility(GONE);
-    };
+    }
 }
