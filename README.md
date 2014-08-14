@@ -2,6 +2,12 @@ Android LoadingView
 ===========
 通用LOADING提示组件 
 
+## 版本(last version)
+### 最新稳定版(release)
+0.1.1版（tag：v0.1.1）
+### 最新开发版(SNAPSHOT)
+0.1.2-SNAPSHOT版（branch：master）
+
 ## 如何引用此组件：
 ### 安装
 ```
@@ -17,7 +23,7 @@ mvn clean install
 <dependency>
 <groupId>com.mindpin.android.loadingview</groupId>
 <artifactId>loadingview</artifactId>
-<version>0.1.1</version>
+<version>(last version)</version>
 <type>apklib</type>
 </dependency>
 ```
