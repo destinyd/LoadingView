@@ -12,7 +12,7 @@
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="?android:attr/progressBarStyleSmall"
+            style="?android:attr/progressBarStyleLarge"
             >
     </ProgressBar>
     <!--<TextView-->
