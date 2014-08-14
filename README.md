@@ -17,7 +17,7 @@ mvn clean install
 <dependency>
 <groupId>com.mindpin.android.loadingview</groupId>
 <artifactId>loadingview</artifactId>
-<version>0.1.0-SNAPSHOT</version>
+<version>0.1.1-SNAPSHOT</version>
 <type>apklib</type>
 </dependency>
 ```

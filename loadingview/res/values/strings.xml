@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="lib_name">loadingview</string>
-	<string name="lib_version">0.1.0-SNAPSHOT</string>
+	<string name="lib_version">0.1.1-SNAPSHOT</string>
     <string name="loading">读取中</string>
 
 </resources>
